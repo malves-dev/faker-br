@@ -5,8 +5,9 @@
  Tamnil Saito Jr. < tamnil@gmail.com >
 
 
-Fork baseado no Faker.js para implementação no Brasil em língua portuguesa. Este pacote mantém todas as definições de linguagem do Faker.js V 4.0.x. o idioma principal foi alterado de en para "pt_BR" , e fallback para "en". Portanto a língua nativa do faker-br se torna o português, com fallback para ingles que possui implementaçoes não disponiveis nas outras linguagens
-    As funçoẽs nativas do faker foram mantidas.
+Fork baseado no Faker.js para implementação no Brasil em língua portuguesa. Este pacote mantém todas as definições de linguagem do Faker.js V 4.0.x.   
+O idioma principal foi alterado de en para "pt_BR" , e fallback para "en". Portanto a língua nativa do faker-br se torna o português, com fallback para inglês que possui implementações não disponiveis nas outras linguas.
+As funções nativas do faker foram mantidas.
 
 ## Instalacão:
 ```
@@ -38,7 +39,6 @@ para aplicaçoes em linha de comando:
 
     A geração de cartao de credito no faker.js, gera numeros não validados. O faker-br usa geração de numeros válidos por "Luhn algorithm -Mod 10"
 
-
 A medida do possível, este módulo respeita a estrutura do faker.js (4.0.x) permitindo a substituição direta:
 
     // original
@@ -47,14 +47,12 @@ A medida do possível, este módulo respeita a estrutura do faker.js (4.0.x) per
     // usando faker-br
     const faker = require('faker-br');
 
-
-
 ## Uso
 
     var faker = require('faker-br');
     let meuCpf = faker.br.cpf();
 
-As funçoes básicas são do faker 4.1 (https://github.com/Marak/faker.js).
+As funções básicas são do faker 4.1 (https://github.com/Marak/faker.js).
 
 ### Browser
 
@@ -72,7 +70,6 @@ As funçoes básicas são do faker 4.1 (https://github.com/Marak/faker.js).
     console.log(faker.br.cnpj()) ;
 
 ## API
-
 
 ## Implementações para pt_BR
 
@@ -93,8 +90,8 @@ As funçoes básicas são do faker 4.1 (https://github.com/Marak/faker.js).
 
 ### name
 
-- adição de mais nomes para pt-br o que aumenta o numero de combinações, reduzindo repetiçoes.
-- adição de campos nao traduzidos para pt_BR marcados como "new", originalmente existentes em inglês.
+- adição de mais nomes para pt-br o que aumenta o número de combinações, reduzindo repetiçoes.
+- adição de campos não traduzidos para pt_BR marcados como "new", originalmente existentes em inglês.
 
 name.gender
 name.firstname (extended) (extended: 2756 items, original:91 )
@@ -106,12 +103,9 @@ name.prefix (new)
 name.title (translated)
 
 
-
-
 ## modulos traduzidos
 commerce: color,department.product name
 name: gender prefix
-
 
 ### API Methods
 #### faker-br
@@ -346,16 +340,15 @@ faker-br uses [gulp](http://gulpjs.com/) to automate it's build process. Running
 npm run-script build
 ```
 
-## Building JSDocs
+## Construindo JSDocs
 
 ```
 npm run-script doc
 ```
 
+## Mantenedor
 
-## Maintainer
-
-#### Tamnil Saito Junior <tamnil@gmail.com>
+#### Mario S. Alves <tamnil@gmail.com>
 
 Faker-br - Copyright (c) 2018
 Tamnil Saito Junior
