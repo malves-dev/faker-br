@@ -283,23 +283,22 @@ name: gender prefix
   * semver
 
 
-## Localization
+## Localização
 
 
 
-### Individual Localization Packages
+### Pacotes de localização individuais
 
-By default, requiring `faker` will include *all* locale data.
-In a production environment, you may only want to include the locale data for a specific set of locales.
-
+Por padrão, exigir o `faker` incluirá *todos* os dados de localização.   
+Em um ambiente de produção, você pode querer incluir apenas os dados de localização para um conjunto específico de localidades.
 ```js
 // loads only de locale
 var faker-br = require('faker/locale/de');
 ```
 
-## Setting a randomness seed
+## Definindo uma semente de aleatoriedade
 
-If you want consistent results, you can set your own seed:
+Se você quiser resultados consistentes, você pode definir sua própria semente:
 
 ```js
 faker.seed(123);
