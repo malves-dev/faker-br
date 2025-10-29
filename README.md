@@ -1,21 +1,25 @@
-# Faker-br - Baseado no "faker" para desenvolvimento no Brasil
+# Faker-br - Baseado no "faker-br"
 
 [![Build Status](https://travis-ci.com/tamnil/faker-br.svg?branch=master)](https://travis-ci.com/tamnil/faker-br)
 
- Tamnil Saito Jr. < tamnil@gmail.com >
+ Mario S. Alves. < malves-dev@gmail.com >
 
 
-Fork baseado no Faker.js para implementação no Brasil em língua portuguesa. Este pacote mantém todas as definições de linguagem do Faker.js V 4.0.x.   
-O idioma principal foi alterado de en para "pt_BR" , e fallback para "en". Portanto a língua nativa do faker-br se torna o português, com fallback para inglês que possui implementações não disponiveis nas outras linguas.
-As funções nativas do faker foram mantidas.
+Fork baseado no Faker-br.js para implementação no Brasil em língua portuguesa.  
+Este pacote mantém todas as definições de linguagem do Faker-br
+O idioma principal foi alterado de en para "pt_BR" , e fallback para "en".  
+Portanto a língua nativa do faker-br se torna o português, com fallback para inglês que possui implementações não disponiveis nas outras linguas.
+As funções nativas do faker-br foram mantidas.
 
 ## Instalacão:
-```
-npm install faker-br
+
+```bash 
+$ npm install faker-br
 ```
 
 ## Faker-br CLI
-para aplicaçoes em linha de comando:
+
+Para aplicaçoes em linha de comando:
 
 - sh/bash:
 
@@ -37,12 +41,9 @@ para aplicaçoes em linha de comando:
    - gerador de CEP (todo)
    - gerador de profissões (todo)
 
-    A geração de cartao de credito no faker.js, gera numeros não validados. O faker-br usa geração de numeros válidos por "Luhn algorithm -Mod 10"
+    O faker-br usa geração de numeros válidos por "Luhn algorithm -Mod 10"
 
-A medida do possível, este módulo respeita a estrutura do faker.js (4.0.x) permitindo a substituição direta:
-
-    // original
-    // const faker = require('faker');
+A medida do possível, este módulo respeita a estrutura do faker-br:
 
     // usando faker-br
     const faker = require('faker-br');
@@ -52,7 +53,7 @@ A medida do possível, este módulo respeita a estrutura do faker.js (4.0.x) per
     var faker = require('faker-br');
     let meuCpf = faker.br.cpf();
 
-As funções básicas são do faker 4.1 (https://github.com/Marak/faker.js).
+As funções básicas são do faker-br (https://travis-ci.com/tamnil/faker-br.svg?branch=master) (https://travis-ci.com/tamnil/faker-br).
 
 ### Browser
 
