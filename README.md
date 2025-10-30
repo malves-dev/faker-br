@@ -23,9 +23,9 @@ Para aplicaçoes em linha de comando:
 - sh/bash:
 
 ```bash
-    $ npm install -g faker-br
-    $ echo meu cpf é `faker-br br.cpf`
-    meu cpf é 65444122529
+$ npm install -g faker-br
+$ echo meu cpf é `faker-br br.cpf`
+meu cpf é 65444122529
 ```
 ## Inclusão da seguintes funções:
 
@@ -42,13 +42,13 @@ Para aplicaçoes em linha de comando:
 
 A medida do possível, este módulo respeita a estrutura do faker-br:
 
-    // usando faker-br
-    const faker = require('faker-br');
+// usando faker-br
+const faker = require('faker-br');
 
 ## Uso
 ```js
-    var faker = require('faker-br');
-    let meuCpf = faker.br.cpf();
+var faker = require('faker-br');
+let meuCpf = faker.br.cpf();
 ```
 
 As funções básicas são do faker-br (https://travis-ci.com/tamnil/faker-br.svg?branch=master) (https://travis-ci.com/tamnil/faker-br).
@@ -56,21 +56,20 @@ As funções básicas são do faker-br (https://travis-ci.com/tamnil/faker-br.sv
 ### Browser
 
 ```html
-	<script src = "faker-br.js" type = "text/javascript"></script>
+<script src = "faker-br.js" type = "text/javascript"></script>
 ```
 
 ### Node.js
 
-    var faker = require('faker-br');
+var faker = require('faker-br');
 
 ### Aplicação
 
 ```js
-	var randomcpf = faker.br.cpf();
-	var randomCnpj = faker.br.cnpj();
+var randomcpf = faker.br.cpf();
+var randomCnpj = faker.br.cnpj();
+console.log(faker.br.cnpj()) ;
 ```
-
-    console.log(faker.br.cnpj()) ;
 
 ## API
 
@@ -301,25 +300,25 @@ Em um ambiente de produção, você pode querer incluir apenas os dados de local
 Se você quiser resultados consistentes, você pode definir sua própria semente:
 
 ```js
-	faker.seed(123);
-	us of version `v2.0.0` faker-br has support for multiple localities.
+faker.seed(123);
+us of version `v2.0.0` faker-br has support for multiple localities.
 
-	The default language locale is set to English.
-	
-	Setting a new locale is simple:
-	
-	// sets locale to de
-	faker.setLocale("de");
-	// or
-	faker.locale = "de";
-	var firstRandom = faker.random.number();
-	
-	// Setting the seed again resets the sequence.
-	faker.seed(123);
-	
-	var secondRandom = faker.random.number();
-	
-	console.log(firstRandom === secondRandom);
+The default language locale is set to English.
+
+Setting a new locale is simple:
+
+// sets locale to de
+faker.setLocale("de");
+// or
+faker.locale = "de";
+var firstRandom = faker.random.number();
+
+// Setting the seed again resets the sequence.
+faker.seed(123);
+
+var secondRandom = faker.random.number();
+
+console.log(firstRandom === secondRandom);
 ```
 
 ## Tests
