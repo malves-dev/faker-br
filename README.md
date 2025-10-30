@@ -4,10 +4,10 @@
 
 Mario S. Alves. < malves-dev@gmail.com >
  
-Fork baseado no Faker-br.js para implementação no Brasil em língua portuguesa.
-Este pacote mantém todas as definições de linguagem do Faker-br
-O idioma principal foi alterado de `en` para `pt_BR` , e fallback para `en`.  
-Portanto a língua nativa do faker-br se torna o português, com fallback para inglês que possui implementações não disponiveis nas outras linguas.
+Fork baseado no Faker-br.js para implementação no Brasil em língua portuguesa.  
+Este pacote mantém todas as definições de linguagem do Faker-br  
+O idioma principal foi alterado de `en` para `pt_BR` , e fallback para `en`.   
+Portanto a língua nativa do faker-br se torna o português, com fallback para inglês que possui implementações não disponiveis nas outras linguas.  
 As funções nativas do faker-br foram mantidas.
 
 ## Instalação:
