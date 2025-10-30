@@ -10,7 +10,7 @@ O idioma principal foi alterado de en para "pt_BR" , e fallback para "en".
 Portanto a língua nativa do faker-br se torna o português, com fallback para inglês que possui implementações não disponiveis nas outras linguas.
 As funções nativas do faker-br foram mantidas.
 
-## Instalacão:
+## Instalação:
 
 ```bash 
 $ npm install faker-br
@@ -18,9 +18,7 @@ $ npm install faker-br
 
 ## Faker-br CLI
 
-Para aplicaçoes em linha de comando:
-
-- sh/bash:
+Para aplicações em linha de comando:
 
 ```bash
 $ npm install -g faker-br
@@ -49,6 +47,7 @@ const faker = require('faker-br');
 ```js
 var faker = require('faker-br');
 let meuCpf = faker.br.cpf();
+console.log(meuCpf) ;
 ```
 
 As funções básicas são do faker-br (https://travis-ci.com/tamnil/faker-br.svg?branch=master) (https://travis-ci.com/tamnil/faker-br).
